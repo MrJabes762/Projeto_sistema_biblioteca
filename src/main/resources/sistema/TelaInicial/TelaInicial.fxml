@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Rectangle2D?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="AnchorPane" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sistema.app.Conttrollers.TelaInicial.TelaInicialController.java">
+<fx:root prefHeight="400.0" prefWidth="600.0" type="AnchorPane" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sistema.app.Conttrollers.TelaInicial.TelaInicialController.java">
    <children>
       <ImageView fitHeight="400.0" fitWidth="600.0" layoutX="200.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <image>
             <Image url="@../img/Biblioteca.jpeg" />
          </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
       </ImageView>
       <Button fx:id="btnEntrar" layoutX="254.0" layoutY="177.0" mnemonicParsing="false" onAction="#entrarNaPaginaInicial" prefHeight="46.0" prefWidth="90.0" styleClass="btn-login" stylesheets="@../Css/style.css" text="Entrar" />
    </children>
