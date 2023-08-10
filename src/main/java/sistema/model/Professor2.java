@@ -16,6 +16,7 @@ public class Professor2 extends Pessoa implements Operacoes{
     private void setMochilaProfessor() {
         this.mochilaAluno = new Mochilha2();
     }
+    @Override
     public void adicionarLivronaMochila(Livro2 pegarLivro2daestante) {
         try {
             getMochilaProfessor ().adicionarNaMochila(pegarLivro2daestante);
@@ -23,6 +24,7 @@ public class Professor2 extends Pessoa implements Operacoes{
             System.out.println(e.getMessage());
         }
     }
+    @Override
     public Livro2 removerLivrodaMochila(String codigo) {
         try {
            return getMochilaProfessor ().pegarLivronaMochila(codigo);
