@@ -5,10 +5,10 @@ sistema\model\Aluno2.class
 sistema\model\Livro2.class
 module-info.class
 sistema\Roteiro.class
+sistema\app\Conttrollers\TelaInicialController.class
 sistema\data\Mochilha2.class
 sistema\data\Biblioteca2.class
 sistema\model\Professor2.class
-sistema\app\Conttrollers\TelaInicial\TelaInicialController.class
 sistema\model\Autor2.class
 sistema\data\Estante2.class
 sistema\model\Pessoa.class

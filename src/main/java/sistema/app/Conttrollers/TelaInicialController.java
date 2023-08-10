@@ -1,4 +1,4 @@
-package sistema.app.Conttrollers.TelaInicial;
+package sistema.app.Conttrollers;
 
 import java.io.IOException;
 

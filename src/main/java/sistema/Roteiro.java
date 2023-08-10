@@ -1,5 +1,4 @@
 package sistema;
-
 import sistema.data.Biblioteca2;
 import sistema.model.Aluno2;
 import sistema.model.Autor2;
