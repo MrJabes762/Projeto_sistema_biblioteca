@@ -7,7 +7,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import sistema.App;
 
-public class TelaInicialController {
+public class TelaInicialController  {
 
     @FXML
     private Button btnEntrar;
