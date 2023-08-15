@@ -10,6 +10,7 @@ import javafx.stage.Stage;
 public class App extends Application {
     private static Scene scene;
     private String caminhorelativo = "TelaInicial.fxml";
+    
     @Override
     public void start(Stage stage) throws IOException {
         Parent root = loadFXML(caminhorelativo);
